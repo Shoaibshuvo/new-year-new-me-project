@@ -4,7 +4,7 @@
 }
 .header-banner{
     
-    background-image: url(../images/banner/banner3.png);
+    background-image: url(../images/banner/banner2.png);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -21,12 +21,12 @@
 .header-title {
     font-weight: 700;
     font-size: 65px;
-    color: #FFFFFF;
+    color: #151414;
 
 }
 .header-sub{
     font-size: 16px;
-    color: #FFFFFF;
+    color: #444343;
     margin-top: 24px;
     margin-bottom: 32px;
 }
@@ -35,9 +35,10 @@
     font-size: 20px;
     padding: 20px 26px;
     border-radius: 5px;
-    background: #FFFFFF;
-    color: #005FAC;
+    background: #F15B22;
+    color: #FFFFFF;
     text-align: center;
+    border: 0;
 }
 
 /* main */
@@ -55,7 +56,7 @@
     margin-top: 131px;
     display: flex;
     align-items: center;
-    gap: 120px;
+    gap: 90px;
     
 }
 /* .sec-img-person {
@@ -113,13 +114,17 @@
     color: #737272;
     padding-top: 16px;
 }
-.bonus-mark {
-    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0),100%, url('../images/gradient3.png'));
-    border-radius: 8px;
-    background-size: cover;
-    max-width: 1140px;
+.sec-3 {
+
+    width: 1140px;
     height: 300px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/gradient2.png);
+    background-size: cover;
+    margin: 125px 230px;
+    
 }
+
 .bonus-text {
     padding: 59px 64px;
 
@@ -130,7 +135,7 @@
     color: #FFFFFF;
     
 }
-.linier-btn {
+.btn-2 {
     font-weight: 600;
     font-size: 20px;
     text-align: center;
@@ -138,42 +143,99 @@
     color: #F15B22;
     background: #FFFFFF;
     margin-top: 24px;
+    border: 0;
 }
 
 /* footer */
 
-.section-3 {
-
+.sec-4 {
+    display: flex;
+    align-items: center;
+    background-color:  #151414;
+    margin-top: 130px;
 }
 .footer-div-1 {
-
+    padding: 130px 230px;
 }
 .footer-title {
-
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
 }
 .footer-description {
-
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 16px;
 }
 .email {
-
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
 }
 .phone {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
 
 }
 .icons {
+    margin-top: 32px;
+}
+.icon-fb {
+    background: #FFFFFF;
+    margin-right: 17px;
+    color: #1778F2;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.icon-tw {
+    background: #FFFFFF;
+    margin-right: 18px;
+    color: #00ACEE;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.icon-yt {
+    background: #FFFFFF;
+    color: #FF0000;;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
 
 }
 .footer-div-2 {
-
+    padding: 130px 230px;
 }
 .subscribe-text {
-
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
 }
 
 
 .email-input {
+    background: #151414;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 31px;
+    color: #F3F3F3;
+    padding: 21px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
 
 }
-.subscribe-btn {
-    
+.btn-last {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding: 21px 36px;
+    color: #F15B22;
+    background: #FFFFFF;
+    margin-top: 24px;
+    border-radius: 8px;
 }
